@@ -1,0 +1,149 @@
+@media screen and (max-width: 480px){
+    /*メニュー*/
+    body{
+        margin:0px;
+    }
+    .menus{
+        display:flex;
+        justify-content:space-between;
+        width: 100vw;
+        position: relative;
+        top:0px;
+    }
+    .menu{
+        margin:0;
+        font-size:24px;
+        margin:0 32px;
+    }
+    /*ロゴ*/
+    .header{
+        position: relative;
+        top:16px;
+    }
+    .header .hy_logo{
+        height:32px;
+        width: auto;
+        position: relative;
+        top:4px;
+        right:4px;
+    }
+    .header .logo{
+        margin:0;
+        font-size:20px;
+        margin-left:16px;
+        margin:24px;
+    }
+    /*トップページ*/
+    .pages{
+        float:none;
+    }
+    .top{
+        width: 100vw;
+        height: 100vw;
+    }
+    .top_pic{
+        padding-top:40px;
+        width: 100%;
+        height: 500px;
+        object-fit: none;
+    }
+    /*PROFILE*/
+    .profile{
+        width:100vw;
+        padding:0;
+    }
+    /*WORK*/ 
+    .works{
+        width: 100vw;
+    }
+    .works .box-list{
+        display:flex;
+        padding:0 24px;
+        justify-content: space-between;
+    }   
+    .box-list img{
+        height: 40vw;
+        width: 40vw;
+        justify-content: space-between;
+    }
+    .box-list .title{
+        font-size:13px;
+    }
+    /*PROJECT*/
+    .projectDetails .project-image{
+        width:100vw;
+
+    }
+    .projectDetails img{
+        width:289px;
+        height: 232px;;
+        margin:0 auto;
+    }
+    .projectDetails .project-title{
+        padding:0 32px;
+        padding-top: 9px;
+        font-size: 20px;
+        float:none;
+    }
+    .caption-title{
+        width:100vw;
+        padding: 0;
+        padding:0 8px;
+    }
+    .caption-title span{
+        display: none;
+        padding-top:8px;
+    }
+    .caption-title p{
+        padding:0 32px;
+        margin:0px;
+        font-size:11px;
+        width:auto;
+        height: auto;
+    }
+
+    .tool-title{
+        padding:0 32px;
+        padding-top:16px;
+        font-size:18px;
+        word-wrap: break-word;
+    }
+    .tool-title p{
+        font-size:13px;
+    }
+
+    .tonext{
+        padding-bottom: 24px;
+    }
+    .tonext .content{
+        position: relative;
+        bottom:2px;
+        font-size:13px;
+    }
+
+    .tonext .rightArrow{
+        height: 24px;
+        width: auto;
+    }
+    /*MAIL*/
+    .mail{
+        padding:0;
+        width: 100vw;
+        font-size:10px;
+        text-align: center;
+    }
+    .mail h1{
+        position: relative;
+        top:10rem;
+    }
+    /*ANIMATION*/
+    .menu:hover::before{
+        width:100%;
+    }
+    
+    /*FOOTER*/
+    .footer{
+        font-size:8px;
+    }
+    
+}
